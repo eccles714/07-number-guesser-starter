@@ -37,7 +37,7 @@ guessButton.addEventListener('click', () => {
     guessButton.innerText = 'You Win!!!!!';
     guessButton.classList.toggle('winning-text')
   } else {
-    computerWinsDisplay.innerText = 'You fucking SUCK!!!';
+    computerWinsDisplay.innerText = 'getREKTscrub!!!';
   }
 
   // winnerDisplay.innerText = humanIsWinner ? 'You win!' : 'Computer wins!';

@@ -22,9 +22,15 @@ function compareGuesses(currentHumanGuess, computerGuess, target){
 }
 
 function updateScore(winner) {
-
+    if (winner === 'human') {
+        humanScore += 1;
+    } else if (winner === 'computer') {
+        computerScore += 1;
+    }
 }
 
+
 function advanceRound(){
-    
+    if (nextRoundButton.clicked=true)
+        currentRoundNumber += 1;
 }
